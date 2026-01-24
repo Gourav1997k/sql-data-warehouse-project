@@ -8,7 +8,7 @@ This repository contains a full-scale **Modern Data Warehouse** project built us
 ## 🛠️ Tech Stack & Architecture
 - **Engine:** SQL Server (T-SQL)
 - **Architecture:** Medallion (Bronze ➡️ Silver ➡️ Gold)
-<!--- **Modeling:** Dimensional Modeling (Star Schema)-->
+- **Modeling:** Dimensional Modeling (Star Schema)
 - **Methodology:** ETL (Extract, Transform, Load) with Bulk Inserts
 <!--- **Design Tools:** Draw.io (Architecture Diagrams), Notion (Project Tracking)-->
 
@@ -28,7 +28,7 @@ This repository contains a full-scale **Modern Data Warehouse** project built us
   - Fixed **invalid date ranges** and performed data type casting.
   - Removed unwanted spaces (Trimming) and handled negative price/sales outliers.
 
-<!--### 3. Gold Layer (Analytics)
+### 3. Gold Layer (Analytics)
 - **Objective:** Final business-ready layer for Power BI / Reporting.
 - **Modeling:** Created a **Star Schema** with Centrally linked Facts and Dimensions.
 - **Key Deliverables:** - `Dim_Customers`: Integrated CRM & ERP data for a 360-degree customer view.
@@ -37,7 +37,7 @@ This repository contains a full-scale **Modern Data Warehouse** project built us
 
 ---
 
-## 📂 Project Structure
+<!--## 📂 Project Structure
 ```text
 ├── Scripts
 │   ├── Bronze/        # DDL and Bulk Load Stored Procedures
